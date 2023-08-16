@@ -1,21 +1,16 @@
-[build-system]
-requires = ["setuptools", "setuptools-scm"]
-build-backend = "setuptools.build_meta"
-
-[project]
+[tool.poetry]
 name = "sphinxy"
-description = "Examples for sphinx-tutorial"
-version = "0.0.1"
-requires-python = ">=3.8"
-license = {file = "LICENSE"}
-authors = [
-  { name = "Aya Elsayed", email = "ayah.ehab11@gmail.com" },
-  { name = "Olga Matoula", email = "olgamatoula@gmail.com" },
-]
-dependencies = []
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
 
-[project.optional-dependencies]
-dev = ["pytest"]
+[tool.poetry.dependencies]
+python = "^3.11"
+sphinx = "^7.1.2"
+sphinx-rtd-theme = "^1.2.2"
 
-[tool.setuptools.packages.find]
-where = ["src"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
