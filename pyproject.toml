@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.11"
 sphinx = "^7.1.2"
 sphinx-rtd-theme = "^1.2.2"
+furo = "^2023.7.26"
 
 
 [build-system]
