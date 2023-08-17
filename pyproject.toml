@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-sphinx = "^7.1.2"
+sphinx = "^6"
 sphinx-rtd-theme = "^1.2.2"
 furo = "^2023.7.26"
 
